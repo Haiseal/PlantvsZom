@@ -203,19 +203,11 @@ public class GamePanel extends JLayeredPane implements MouseMotionListener {
 
 
     }
-// Check pos in here 
     class PlantActionListener implements ActionListener {
 
         int x,y;
 
         public PlantActionListener(int x, int y){
- /*           if(this.x == colliders[].setPlant(Plant.x)) {
-  					if (this.y == collider.serPlant(Plant.y)){
-  						PlantActionListener.stop();
-  						}
-  					}
-  				else{
- */
         	this.x = x;
             this.y = y;
         }
